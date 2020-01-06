@@ -4,3 +4,25 @@
 }
 
 
+.container{
+  width: 100%; 
+  min-height: 100vh !important;
+  text-align: center;
+  background-color: teal;
+}
+
+.container img{
+  width: 100%;
+  height: auto;
+}
+
+.container h2{
+  position: absolute;
+  z-index: 6;
+  color: #fafafa;
+  top: 79%;
+  left: 29%; 
+  font-size: 6rem;
+}
+
+
