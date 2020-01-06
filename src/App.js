@@ -1,10 +1,13 @@
 import React from 'react';
+import TimeTracker from './components/TimeTracker/TimeTracker'
+import Header from './components/Header/Header'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Ract App component working</h1>
+    <div>
+      <Header />
+      <TimeTracker />
     </div>
   );
 }
